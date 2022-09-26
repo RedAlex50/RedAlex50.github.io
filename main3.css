@@ -1,0 +1,42 @@
+body {
+    font-size: 20px;
+}
+
+.header, .nav, .hyperlinks, .table, .form, .footer {
+    background-color: rgb(209, 213, 231);
+    padding: 0.2em;
+}
+
+.container {
+    width: 960px;
+    margin: 0.5em auto;
+    padding-bottom: 0.1em;
+}
+
+#bheader {
+    margin: 0 2em;
+}
+
+.nav a{
+    margin-right: 1em;
+}
+
+b {
+    font-size: 36px;
+}
+
+table {
+    background-color: white;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid gray;
+    padding: 3px 5px 3px 5px;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(243, 217, 217);
+}
