@@ -1,6 +1,32 @@
+@media (max-width: 991.98px) { 
+    .nav {
+        flex-direction: column;
+    }
 
-
+    .navlink {
+        margin: auto;
+    }
+}
 
 .bg-blue {
     background-color: rgb(209, 213, 231);
+}
+
+hr{
+    color: #999999;
+    opacity: 100%;
+}
+
+.navlink{
+    width: fit-content;
+    height: 2rem;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.navlink a{
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
 }
