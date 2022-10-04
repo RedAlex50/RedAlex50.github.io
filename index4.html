@@ -9,228 +9,223 @@
     <title>RedAlex50</title>
 </head>
 <body>
-    <nav>
+    <header>
         <div class="container-fluid  bg-blue mt-2">
           <div class="container-lg">
             <div class="row justify-content-center mx-1">
               <div class="col-lg-12 col-xl-10 col-xxl-9">
-                <h2> 
-                  <img src="https://www.nicepng.com/png/full/823-8238155_turbo-vector.png" alt="Лого" height="64px">
-                  <span class="m-5">Задание 4</span>
-                </h2>
+                <div class="pt-1">
+                  <h2>
+                    <img src="https://www.nicepng.com/png/full/823-8238155_turbo-vector.png" alt="Лого" height="64px">
+                    <span class="m-5 fs-1 align-middle">Задание 4</span>
+                  </h2>
+                </div>
               </div>
             </div>
           </div>
         </div>
-    </nav>
+      </header>
 
 
     <div class="container-lg" id="main">
         <div class="row justify-content-center">
           <div class="col-lg-12 col-xl-10 col-xxl-9">
+
             <hr />
             <nav>
-                <div class="nav bg-blue">
-                  <div class="navlink px-1 m-auto"><a href="#top" title="Начало"> Начало страницы </a></div>
-                  <div class="navlink px-1 m-auto"><a href="#hyperlinks" title="Списко гиперрсылок"> Список гиперссылок </a></div>
-                  <div class="navlink px-1 m-auto"><a href="#table" title="Таблица">Таблица</a></div>
-                  <div class="navlink px-1 m-auto"><a href="#form" title="Форма"> Форма </a></div>
-                  <div class="navlink px-1 m-auto"><a href="#end" title="Конец страницы"> Конец страницы</a></div>
+                <div class="nav bg-blue flex-column flex-lg-row p-2">
+                  <div class="navlink px-2 m-auto my-1"><a class="align-middle bg-white border border-dark px-2 pt-1 pb-2 text-dark text-decoration-none lh-lg" href="#top" title="Начало"> <b>Начало страницы</b> </a></div>
+                  <div class="navlink px-2 m-auto my-1"><a class="align-middle bg-white border border-dark px-2 pt-1 pb-2 text-dark text-decoration-none lh-lg" href="#hyperlinks" title="Списко гиперрсылок"> <b>Список гиперссылок </b></a></div>
+                  <div class="navlink px-2 m-auto my-1"><a class="align-middle bg-white border border-dark px-2 pt-1 pb-2 text-dark text-decoration-none lh-lg" href="#table" title="Таблица"><b>Таблица</b></a></div>
+                  <div class="navlink px-2 m-auto my-1"><a class="align-middle bg-white border border-dark px-2 pt-1 pb-2 text-dark text-decoration-none lh-lg" href="#form" title="Форма"> <b>Форма</b> </a></div>
+                  <div class="navlink px-2 m-auto my-1"><a class="align-middle bg-white border border-dark px-2 pt-1 pb-2 text-dark text-decoration-none lh-lg" href="#end" title="Конец страницы"> <b>Конец страницы</b></a></div>
                 </div>
             </nav>
             <hr />
-            <div class="hyperlinks bg-blue">
-                <h3 id="hyperlinks">Список гиперссылок</h3>
-                <ol>
-                  <li>
-                    <a href="http://kubsu.ru">Абсолютная гиперссылка на главную страницу сайта КубГУ</a>
-                  </li>
-        
-                  <li>
-                    <a href="https://kubsu.ru/">Абсолютная гиперссылка на главную страницу сайта КубГУ в протоколе https</a>
-                  </li>
-        
-                  <li>
-                    <a href="ftp://Temp/file.txt"> Ссылка FTP без авторизации </a>
-                  </li>
-        
-                  <li>
-                    <a href="ftp://RedAlex50:pass123@tavalik.ru/Temp/file.txt"> Ссылка FTP с авторизацией </a>
-                  </li>
-        
-                  <li>
-        
-                    <a href="https://webref.ru/layout/html5-css3/link/anchor#views-similar-block">
-                      Ссылка на фрагмент страницы некоторого сайта:
-                    </a>
-                  </li>
-        
-                  <li> <!-- Ссылка на форму в конце страницы -->
-        
-                    <a href="#form"> Ссылка на фрагмент текущей страницы:  </a>
-                  </li>
-                  <li>
-                    <a href=" http://example.com?user=redalex50&pass=qwerty123"> Ссылка с двумя параметрами в URL </a>
-                  </li>
-        
-        
-                  <!-- список ссылок основной навигации сайта с подписями title-->
-                  <li>
-                    <a> Ссылка без href</a>
-                  </li>
-                  <li>
-                    <a href=""> Ссылка с пустым href </a>
-                  </li>
-                  <li>
-                    <a href="http://kubsu.ru/" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам</a>
-                  </li>
-                  <li>
-                    <!-- noindex --> <a href="http://kubsu.ru/">Ссылка, запрещенная для индексации поисковиками </a><!--/noindex -->
-                  </li>
-                  <li>
-                    <p>
-                      Контекстная <a href="http://kubsu.ru/">  ссылка  </a> в тексте абзаца
-                    </p>
-                  </li>
-                  <li>
-                    Ссылка-изображение:
-                    <a href="http://kubsu.ru/"> <img src="https://www.kubsu.ru/sites/all/themes/portal_kubsu/logo.png" alt="КубГУ"></a>
-                  </li>
-                  <li>
-                    Ссылка из прямоугольных и круглых областей картинки
-                    <p>
-                      <img src="https://www.kubsu.ru/sites/all/themes/portal_kubsu/logo.png" usemap="#image-map" alt="map - КубГУ">
-        
-                      <map name="image-map">
-                        <area alt="КубГУ" title="КубГУ" href="https://kubsu.ru/" coords="57,58,26" shape="circle">
-                        <area alt="Факультеты" title="Факультеты" href="https://kubsu.ru/ru/university/structure" coords="6,58,25,60,26,42,41,27,66,24,84,30,92,47,92,61,117,58,112,27,99,4,51,0,20,9,-1,47,4,51,4,41,2,45" shape="poly">
-                    </map>
-                    </p>
-        
-                  </li>
-                  <li>
-                    <a href="1.html">Относительная ссылка на страницу в текущем каталоге</a>
-                  </li>
-        
-                  <li>
-                    <a href="about/2.html"> Относительная ссылка на страницу в каталоге about</a>
-                  </li>
-                  <li>
-                    <a href="../3.html"> Относительная ссылка на страницу в каталоге уровнем выше текущего </a>
-                  </li>
-                  <li>
-                    <a href="../../4.html"> Относительная ссылка на страницу в каталоге двумя уровнями выше </a>
-                  </li>
-                  <li>
-                    <a href="https://clck.ru/yniry"> Сокращенная ссылка на главную </a>
-                  </li>
-        
-                  <li>
-                    <a href="https://clck.ru/ynjbJ"> Сокращенная ссылка на внутреннюю </a>
-                  </li>
-                </ol>
+
+            <div class="row">
+
+              <div class="">
+                <div class="col hyperlinks bg-blue p-2 lh-lg">
+                    <h3 id="hyperlinks">Список гиперссылок</h3>
+                    <ol>
+                      <li>
+                        <a href="http://kubsu.ru">Абсолютная гиперссылка на главную страницу сайта КубГУ</a>
+                      </li>
+                      <li>
+                        <a href="https://kubsu.ru/">Абсолютная гиперссылка на главную страницу сайта КубГУ в протоколе https</a>
+                      </li>
+                      <li>
+                        <a href="ftp://Temp/file.txt"> Ссылка FTP без авторизации </a>
+                      </li>
+                      <li>
+                        <a href="ftp://RedAlex50:pass123@tavalik.ru/Temp/file.txt"> Ссылка FTP с авторизацией </a>
+                      </li>
+                      <li>
+                        <a href="https://webref.ru/layout/html5-css3/link/anchor#views-similar-block">
+                          Ссылка на фрагмент страницы некоторого сайта:
+                        </a>
+                      </li>
+                      <li> <!-- Ссылка на форму в конце страницы -->
+                        <a href="#form"> Ссылка на фрагмент текущей страницы:  </a>
+                      </li>
+                      <li>
+                        <a href=" http://example.com?user=redalex50&pass=qwerty123"> Ссылка с двумя параметрами в URL </a>
+                      </li>
+                      <!-- список ссылок основной навигации сайта с подписями title-->
+                      <li>
+                        <a> Ссылка без href</a>
+                      </li>
+                      <li>
+                        <a href=""> Ссылка с пустым href </a>
+                      </li>
+                      <li>
+                        <a href="http://kubsu.ru/" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам</a>
+                      </li>
+                      <li>
+                        <!-- noindex --> <a href="http://kubsu.ru/">Ссылка, запрещенная для индексации поисковиками </a><!--/noindex -->
+                      </li>
+                      <li>
+                        <p>
+                          Контекстная <a href="http://kubsu.ru/">  ссылка  </a> в тексте абзаца
+                        </p>
+                      </li>
+                      <li>
+                        Ссылка-изображение:
+                        <a href="http://kubsu.ru/"> <img src="https://www.kubsu.ru/sites/all/themes/portal_kubsu/logo.png" alt="КубГУ"></a>
+                      </li>
+                      <li>
+                        Ссылка из прямоугольных и круглых областей картинки
+                        <p>
+                          <img src="https://www.kubsu.ru/sites/all/themes/portal_kubsu/logo.png" usemap="#image-map" alt="map - КубГУ">
+                          <map name="image-map">
+                            <area alt="КубГУ" title="КубГУ" href="https://kubsu.ru/" coords="57,58,26" shape="circle">
+                            <area alt="Факультеты" title="Факультеты" href="https://kubsu.ru/ru/university/structure" coords="6,58,25,60,26,42,41,27,66,24,84,30,92,47,92,61,117,58,112,27,99,4,51,0,20,9,-1,47,4,51,4,41,2,45" shape="poly">
+                        </map>
+                        </p>
+                      </li>
+                      <li>
+                        <a href="1.html">Относительная ссылка на страницу в текущем каталоге</a>
+                      </li>
+                      <li>
+                        <a href="about/2.html"> Относительная ссылка на страницу в каталоге about</a>
+                      </li>
+                      <li>
+                        <a href="../3.html"> Относительная ссылка на страницу в каталоге уровнем выше текущего </a>
+                      </li>
+                      <li>
+                        <a href="../../4.html"> Относительная ссылка на страницу в каталоге двумя уровнями выше </a>
+                      </li>
+                      <li>
+                        <a href="https://clck.ru/yniry"> Сокращенная ссылка на главную </a>
+                      </li>
+                      <li>
+                        <a href="https://clck.ru/ynjbJ"> Сокращенная ссылка на внутреннюю </a>
+                      </li>
+                    </ol>
+                </div>
+                <hr />
+              </div>
+
+              <div class="order-1 order-lg-0">
+                <div class="col table bg-blue p-2 pe-4">
+                    <h3 id="table">Таблица:</h3>
+                    <table class="table table-striped table-bordered border-dark bg-white mx-2 ">
+                      <tr>
+                        <td colspan="4">4 ячейки</td>
+                        <td>15</td>
+                      </tr>
+                      <tr>
+                        <td>21</td>
+                        <td colspan="3">3 ячейки</td>
+                        <td>25</td>
+                      </tr>
+                      <tr>
+                        <td>31</td>
+                        <td>32</td>
+                        <td colspan="2">2 ячейки</td>
+                        <td>35</td>
+                      </tr>
+                      <tr>
+                        <td>41</td>
+                        <td>42</td>
+                        <td>43</td>
+                        <td>44</td>
+                        <td>45</td>
+                      </tr>
+                      <tr>
+                        <td>51</td>
+                        <td>52</td>
+                        <td>53</td>
+                        <td>54</td>
+                        <td>55</td>
+                      </tr>
+                    </table>
+                </div>
+                <hr />
+              </div>
+
+              <div class="order-0 order-lg-1">
+                <div class="col form bg-blue p-2 lg-lg">
+                    <h3 id="form"> Форма: </h3>
+                    <form action="reply.html" method="POST">
+                      <label>
+                        Имя:<br />
+                        <input name="field-name" placeholder="ФИО" />
+                      </label><br />
+                      <label>
+                        Email:<br />
+                        <input name="field-email" type="email" placeholder="Введите вашу почту" />
+                      </label><br />
+                      <label>
+                        Дата рождения:<br />
+                        <input name="field-date" type="date" />
+                      </label><br />
+                      Пол:<br />
+                      <label><input type="radio" name="radio-group-gender" value="input-gender-male" />
+                        Мужской
+                      </label>
+                      <label><input type="radio" name="radio-group-gender" value="input-gender-female" />
+                        Женский
+                      </label><br />
+                      Кол-во конечностей:<br />
+                      <label><input type="radio" name="radio-group-limbs" value="input-limbs-1" />
+                      1
+                      </label>
+                      <label><input type="radio" name="radio-group-limbs" value="input-limbs-2" />
+                      2
+                      </label>
+                      <label><input type="radio" name="radio-group-limbs" value="input-limbs-3" />
+                        3
+                      </label>
+                      <label><input type="radio" name="radio-group-limbs" value="input-limbs-4" />
+                        4
+                      </label>
+                      <label><input type="radio" name="radio-group-limbs" value="input-limbs-X" />
+                        Другое
+                      </label><br />
+                      <label>
+                        Сверхспособности:
+                        <br />
+                        <select name="field-spower" multiple="multiple">
+                          <option value="spower-immortality">Бессметрие</option>
+                          <option value="spower-no-walls">Прохождение сквозь стены</option>
+                          <option value="spower-levitation">Левитация</option>
+                        </select>
+                      </label><br />
+                      <label>
+                        Биография:<br />
+                        <textarea name="field-biography" placeholder="Минимум 100 слов"></textarea>
+                      </label><br />
+                      <label><input type="checkbox" name="contract-checked" />
+                        С контрактом ознакомлен (а)</label><br />
+                      <input type="submit" value="Отправить" />
+                    </form>
+                </div>
+                <hr />
+              </div>
+
             </div>
-            <hr />
-            <div class="table bg-blue">
-                <h3 id="table">Таблица:</h3>
-                <table>
-                  <tr>
-                    <td colspan="4">4 ячейки</td>
-                    <td>15</td>
-                  </tr>
-                  <tr>
-                    <td>21</td>
-                    <td colspan="3">3 ячейки</td>
-                    <td>25</td>
-                  </tr>
-                  <tr>
-                    <td>31</td>
-                    <td>32</td>
-                    <td colspan="2">2 ячейки</td>
-                    <td>35</td>
-                  </tr>
-                  <tr>
-                    <td>41</td>
-                    <td>42</td>
-                    <td>43</td>
-                    <td>44</td>
-                    <td>45</td>
-                  </tr>
-                  <tr>
-                    <td>51</td>
-                    <td>52</td>
-                    <td>53</td>
-                    <td>54</td>
-                    <td>55</td>
-                  </tr>
-                </table>
-            </div>
-            <hr />
-            <div class="form bg-blue">
-                <h3 id="form"> Форма: </h3>
-                <form action="reply.html" method="POST">
-                  <label>
-                    Имя:<br />
-                    <input name="field-name" placeholder="ФИО" />
-                  </label><br />
-        
-                  <label>
-                    Email:<br />
-                    <input name="field-email" type="email" placeholder="Введите вашу почту" />
-                  </label><br />
-        
-                  <label>
-                    Дата рождения:<br />
-                    <input name="field-date" type="date" />
-                  </label><br />
-        
-                  Пол:<br />
-                  <label><input type="radio" name="radio-group-gender" value="input-gender-male" />
-                    Мужской
-                  </label>
-                  <label><input type="radio" name="radio-group-gender" value="input-gender-female" />
-                    Женский
-                  </label><br />
-        
-                  Кол-во конечностей:<br />
-                  <label><input type="radio" name="radio-group-limbs" value="input-limbs-1" />
-                  1
-                  </label>
-                  <label><input type="radio" name="radio-group-limbs" value="input-limbs-2" />
-                  2
-                  </label>
-                  <label><input type="radio" name="radio-group-limbs" value="input-limbs-3" />
-                    3
-                  </label>
-                  <label><input type="radio" name="radio-group-limbs" value="input-limbs-4" />
-                    4
-                  </label>
-                  <label><input type="radio" name="radio-group-limbs" value="input-limbs-X" />
-                    Другое
-                  </label><br />
-        
-                  <label>
-                    Сверхспособности:
-                    <br />
-                    <select name="field-spower" multiple="multiple">
-                      <option value="spower-immortality">Бессметрие</option>
-                      <option value="spower-no-walls">Прохождение сквозь стены</option>
-                      <option value="spower-levitation">Левитация</option>
-                    </select>
-                  </label><br />
-        
-                  <label>
-                    Биография:<br />
-                    <textarea name="field-biography" placeholder="Минимум 100 слов"></textarea>
-                  </label><br />
-        
-                  <label><input type="checkbox" name="contract-checked" />
-                    С контрактом ознакомлен (а)</label><br />
-        
-                  <input type="submit" value="Отправить" />
-                </form>
-            </div>
-            <hr />
           </div>
         </div>
     </div>
@@ -240,19 +235,15 @@
             <div class="container-lg">
               <div class="row justify-content-center mx-1">
                 <div class="col-lg-12 col-xl-10 col-xxl-9 mx-2">
-                  <h2 id="end">
+                    <h2 id="end">
                       Моисеев Александр | группа 25/1
                     </h2>
-                    <div class="navlink px-1 m-1"><a href="#top" title="Назад"> Вернуться в начало</a></div>
+                    <div class="navlink px-1 mx-auto my-3"><a class="align-middle bg-white border border-dark px-2 pt-1 pb-2 text-dark text-decoration-none" href="#top" title="Назад"> <b>Вернуться в начало</b></a></div>
                 </div>
               </div>
             </div>
         </div>
     </footer>
 
-
-    <footer>
-
-    </footer>
 </body>
 </html>
