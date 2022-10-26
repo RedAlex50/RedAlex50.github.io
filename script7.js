@@ -6,7 +6,7 @@ $(function(){
         dots: true,
         responsive: [
             {
-                breakpoint: 480,
+                breakpoint: 960,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2
