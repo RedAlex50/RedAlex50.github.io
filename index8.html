@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="main5.css">
+    <title>RedAlex50</title>
+</head>
+<body>
+
+    <script>
+        var json = '{"key": "value"}';
+        var obj = JSON.parse(json);
+        alert(obj.key);
+        // Создаем объект класса XMLHttpRequest.
+        var xhr = new XMLHttpRequest();
+        function go() {
+          // Настраиваем синхронный запрос.
+          xhr.open('GET', '/web8/json/a.txt', false);
+          // Отправляем запрос.
+          xhr.send();
+          // Выводим ответ сервера.
+          var element = document.getElementById('frag');
+          element.innerHTML = xhr.responseText;
+          // Возвращаем false чтобы форма не отправлялась на сервер и страница не перезагружалась.
+          return false;
+        }
+        
+        </script>
+
+    <header>
+        <div class="container-fluid  bg-blue mt-2">
+          <div class="container-lg">
+            <div class="row justify-content-center mx-1">
+                <div class="pt-1">
+                  <h2>
+                    <span class="m-5 fs-1 align-middle">Задание 8</span>
+                  </h2>
+                </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <div class="container-lg border-common border-round my-4" id="frag">
+        <div class="form">
+            <div class="row">
+                <h3> Форма </h3>
+                <formform method="POST" action="https://api.slapform.com/OtEoaDt65" class="mt-2 mb-4">
+                    <div class="m-2">
+                        <input type="text" name="name" id="name" placeholder="Имя">
+                    </div>
+                    <div class="m-2">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="m-2" id="radios">
+                        <textarea name="message" id="message" cols="30" rows="5" placeholder="Сообщение"></textarea>
+                    </div>
+
+                    <div class="m-2" id="checks">
+                        <input type="checkbox" name="check" id="check">
+                        <label for="check-1"> С политикой обработки персональных данных ознакомлен </label>
+                    </div>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>  
+
+    
+    <footer>
+        <div class="container-fluid footer bg-blue">
+            <div class="container-lg">
+              <div class="row justify-content-center mx-1">
+                <div class="col-lg-12 col-xl-10 col-xxl-9 mx-2">
+                    <h2>
+                      Моисеев Александр | группа 25/1
+                    </h2>
+                 </div>
+              </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/slapform@latest/dist/index.min.js"></script>
+    <script src="script8.js"></script>
+</body>
+</html>
